@@ -28,4 +28,6 @@ require('nvim-autopairs').setup({
 
 require('mason').setup()
 require('mason-lspconfig').setup()
+
 require('lspc') -- Load LSP Config
+require('cmpc') -- Load CMP Config
